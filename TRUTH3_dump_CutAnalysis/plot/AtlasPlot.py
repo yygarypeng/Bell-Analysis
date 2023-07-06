@@ -183,7 +183,7 @@ class ATLAShist:
         hep.histplot(
             hist,
             bins=bins[0],
-            density=True,
+            density=False,
             stack=stack,
             histtype=plottype,
             color=self.color,
