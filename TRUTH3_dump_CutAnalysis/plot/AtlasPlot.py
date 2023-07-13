@@ -173,6 +173,7 @@ class ATLAShist:
         :param year: The year of the dataset.
         :param loc: The keyword arguments, here you can use "loc" with int: 0,1,2,3,4 ==> they mean different configurations of the positions of the ATLAS labels.
         :param kargs: Inherited keyword arguments from matplotlib constructor.
+        :param show: If you want to show the statistical info, set it to True.
         :param others: As the text of nameings.
         """
 
@@ -230,7 +231,7 @@ Data {i}:
 """
                 print(msg)
                 i += 1
-            plt.show()
+        plt.show()
         plt.close()
 
         return print("1D, Finish!")
