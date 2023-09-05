@@ -7,5 +7,5 @@ p.s. the attached `yaml` file is for the **Mac M-series chips**.
 (Other installations can be found here, https://github.com/jeffheaton/t81_558_deep_learning)
 
 ```shell=True
-conda env create -f cern_apple.yaml
+conda env create -f cern_apple.yml
 ```
