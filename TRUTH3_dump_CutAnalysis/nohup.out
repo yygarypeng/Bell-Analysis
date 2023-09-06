@@ -1,0 +1,45 @@
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: bundlerextension console dejavu events execute fileid
+kernel kernelspec lab labextension labhub migrate nbclassic nbconvert
+nbextension notebook qtconsole run server serverextension troubleshoot trust
+
+Jupyter command `jupyter-bell-cglmp-nn.ipynb` not found.
+[I 12:09:12.091 NotebookApp] Loading IPython parallel extension
+[W 12:09:12.316 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[W 2023-09-06 12:09:12.318 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-09-06 12:09:12.318 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-09-06 12:09:12.321 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/cern/lib/python3.10/site-packages/jupyterlab
+[I 2023-09-06 12:09:12.321 LabApp] JupyterLab application directory is /root/miniconda3/envs/cern/share/jupyter/lab
+[C 12:09:12.324 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
