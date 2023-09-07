@@ -1,0 +1,29 @@
+# This yaml file is for the docker image -> tensorflow/tensorflow:latest-gpu
+
+channels:
+    - conda-forge
+    - anaconda
+dependencies:
+    - python=3.10
+    - jupyter
+    - scikit-learn
+    - scikit-learn-intelex  
+    - numpy
+    - numba
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - tqdm
+    - xgboost
+    - root
+    - uproot
+    - mplhep
+    - hep_ml
+    - pip
+    - pip:
+        - kaggle
+        - xgbtune
+        - lbn
+        - keras-tuner
+        - scikeras
