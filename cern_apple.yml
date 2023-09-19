@@ -3,23 +3,25 @@ name: cern
 channels:
   - apple
   - conda-forge
+  - anaconda
 dependencies:
   - python=3.10
   - pip>=19.0
   - jupyter
+  - ipykernel
   - scikit-learn
+  - numpy
+  - numba
   - scipy
   - pandas
   - pandas-datareader
   - matplotlib
-  - pillow
   - tqdm
-  - requests
-  - h5py
-  - pyyaml
-  - flask
-  - boto3
-  - ipykernel
+  - xgboost
+  - root
+  - uproot
+  - mplhep
+  - hep_ml
   - numba
   - root
   - uproot
@@ -27,6 +29,7 @@ dependencies:
   - pip:
       - tensorflow-macos==2.9
       - tensorflow-metal==0.5
-      - bayesian-optimization
-      - gym
-      - kaggle
+      - xgbtune
+      - lbn
+      - keras-tuner
+      - scikeras
