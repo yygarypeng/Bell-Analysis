@@ -1,4 +1,4 @@
-# ignore the dataset; only upload the zip file
+# ignore the datasets
 *.root
 *.zip
 *.npz
