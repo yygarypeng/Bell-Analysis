@@ -1,5 +1,5 @@
-%  path: /set/me/please/ # The path to the folder containing the datasets
-path: /root/work/neutrino_flows/truth/signal/*npz
+# path: /set/me/please/ # The path to the folder containing the datasets
+path: ~/work/truth/signal
 lep_vars: px,py,eta,log_energy # Which lepton kinematic features to use as inputs, see /nureg/physics/change_cords for options
 jet_vars: px,py,eta,log_energy # Which jet kinematic features to use as inputs
 out_vars: px,py,eta # Which neutrino kinematic features to use as outputs/targets
